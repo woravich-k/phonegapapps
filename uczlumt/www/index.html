@@ -29,7 +29,7 @@ mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1Mr
 			text-decoration: none;
 			display: inline-block;
 			font-size: 100%;
-			width: 30%;
+			width: 49%;
 			height: 10%;
 		}
 			
@@ -182,7 +182,7 @@ mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1Mr
 </head>
 <body>
 	<!--the mapid div will hold the map-->
-	<div id = "mapid" style="width: 600px;height: 400px;"></div>
+	<div id = "mapid" style="width: 100%;height: 80%;"></div>
 	
 	<!-- the following script will load the map and set the default view and zoom, as well as loading the basemap tiles-->
 	<script>
@@ -199,12 +199,12 @@ mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1Mr
 		
 	</script>
 		
-	<button id ="loadEarthquake" name="loadEarthquake" class ="button buttonBlue" onclick = "getData('earthquakes')">Click here to load earthquakes</button>
-	<button id ="removeEarthquakeData" name="removeEarthquakeData" class ="button buttonRed" onclick="removeData('earthquakes')">Click here to remove the Earthquake data</button>
+	<button id ="loadEarthquake" name="loadEarthquake" class ="button buttonBlue" onclick = "getData('earthquakes')">Load Earthquake</button>
+	<button id ="removeEarthquakeData" name="removeEarthquakeData" class ="button buttonRed" onclick="removeData('earthquakes')">Remove Earthquake</button>
 	</br>
-	<button id ="loadBusStops" name="loadBusStops" class ="button buttonBlue" onclick = "getData('busstops')">Click here to load bus stops</button>
-	<button id ="removeBusStops" name="removeBusStops" class ="button buttonRed" onclick="removeData('busstops')">Click here to remove the bus stops</button>
+	<button id ="loadBusStops" name="loadBusStops" class ="button buttonBlue" onclick = "getData('busstops')">Load Bus Stops</button>
+	<button id ="removeBusStops" name="removeBusStops" class ="button buttonRed" onclick="removeData('busstops')">Remove Bus Stops</button>
 	
-</br>This is web map with Leaflet
+</br>
 </body>
 </html>
