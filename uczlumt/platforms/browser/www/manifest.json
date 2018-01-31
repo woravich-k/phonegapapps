@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "helloworld",
-  "short_name": "helloworld",
+  "name": "Woravich App",
+  "short_name": "Woravich App",
   "version": "BasicApp",
-  "description": "Hello World sample application that responds to the deviceready event.",
+  "description": "Multilayer apps from week2 practical",
   "author": "PhoneGap Team",
   "icons": [],
   "start_url": "index.html"
